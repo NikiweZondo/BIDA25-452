@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NikiWear</title>
+        <link rel="stylesheet" href="css/style.css"
+    </head>
+    <body>
+<header>
+
+<div class="logo">
+    <img src="images/logo.png" alt="NikiWear logo">
+    <h1>NikiWear</h1>
+</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="sell.html">Sell</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+</header>
+<section class="hero">
+    <div class="container">
+    <h2>Welcome to NikiWear</h2>
+    <p>Dicover trendy pre-loved clothing for Men, Women and Kids</p>
+    <button onclick="goToShop()">Shop Now</button>
+</section>
+
+<section class="categories">
+
+    <div class="container">
+    <h2>Shop by Category</h2>
+    <div class="category">
+        <h3><a href="shop.html#men">Men</a></h3>
+        <p>Explore stylish clothing for men</p>
+    </div>
+
+    <div class="category">
+        <h3><a href="shop.html#women">Women</a></h3>
+        <p>Discover trendy fashion for women</p>
+    </div>
+
+    <div class="category">
+        <h3><a href="shop.html#kids">Kids</a></h3>
+        <p>Find comfortable and fun clothing for kids</p>
+    </div>
+
+</section>
+
+<section class="products">
+    <div class="container">
+    <h2>Our Trendy Products</h2>
+    <div class="product">
+        <img src="images/Men's Shirt.jpg" alt="Men's Shirt">
+        <h3>Men's Shirt</h3>
+        <p>Price: P200.00</p>
+    </div>
+
+    <div class="product">
+        <img src="images/Women's Dress.jpg" alt="Women's Dress">
+        <h3>Women's Dress</h3>
+        <p>Price: P350.00</p>
+    </div>
+
+    <div class="product">
+        <img src="images/Kids jacket.jpg" alt="Kids Jacket">
+        <h3>Kids Jacket</h3>
+        <p>Price: P250.00</p>
+    </div>
+
+</section>
+
+<section class="Newsletter">
+    <div class="container">
+    <h2>Newsletter</h2>
+    <p>Stay intouch with us. Sign in to recieve the latest fashion updates.</p>
+
+    <form onsubmit="subscribeUser(); return false;">
+     <input type="email" placeholder="Enter your email" required>
+     <button type="submit">Subscribe</button>
+    </form>
+
+</section>
+
+<footer>
+    <p>About Us | Contact Us</p>
+    <p>© 2026 Nikiwear</p>
+</footer>
+<script src="js/script.js"></script>
+    </body>
+</html>

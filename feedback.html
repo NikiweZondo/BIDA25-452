@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - NikiWear</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<div class="logo">
+    <img src="images/logo.png" alt="NikiWear logo">
+    <h1>NikiWear</h1>
+</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="sell.html">Sell</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+</header>
+
+<section>
+    <div class="container">
+    <h2>Customer Feedback</h2>
+    <p>We value your opinion. Please share your experience with our website</p>
+    <form onsubmit="showMessage()">
+
+        <label>Name</label><br>
+        <input type="text"><br><br>
+
+        <label>Rate your experience</label>
+        <input type="radio" name="rating"> Excellent
+        <input type="radio" name="rating"> Good
+        <input type="radio" name="rating"> Average
+        <input type="radio" name="rating"> Poor
+        <br><br>
+
+        <label>Comments</label><br>
+        <textarea></textarea><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+<footer>
+    <p>About Us | Contact Us</p>
+    <p>© 2026 NikiWear</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
